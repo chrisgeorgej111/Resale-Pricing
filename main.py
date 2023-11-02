@@ -84,15 +84,15 @@ with open('regressor.pkl', 'wb') as file:
     pickle.dump(model, file)
 
 with open('encoder_1.pkl','wb') as file:
-    pickle.dump(x_ohe_1,file)
+    pickle.dump(ohe_1,file)
 with open('encoder_2.pkl','wb') as file:
-    pickle.dump(x_ohe_2,file)
+    pickle.dump(ohe_2,file)
 
 with open('encoder_3.pkl','wb') as file:
-    pickle.dump(x_ohe_3,file)
+    pickle.dump(ohe_3,file)
 
 with open('encoder_4.pkl','wb') as file:
-    pickle.dump(x_ohe_4,file)
+    pickle.dump(ohe_4,file)
 
 
 st.set_page_config(layout="wide")
